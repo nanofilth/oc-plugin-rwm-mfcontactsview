@@ -1,0 +1,16 @@
+fields:
+    name:
+        label: 'rwm.mfcontactsview::lang.plugin.name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    email:
+        label: Email
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    subject:
+        label: Subject
+        span: full
+        oc.commentPosition: ''
+        type: text

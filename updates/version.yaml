@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table rwm_mfcontactsview_contacts'
+    - builder_table_create_rwm_mfcontactsview_contacts.php
+1.0.3:
+    - 'Updated table rwm_mfcontactsview_contacts'
+    - builder_table_update_rwm_mfcontactsview_contacts.php

@@ -1,0 +1,6 @@
+plugin:
+    name: 'rwm.mfcontactsview::lang.plugin.name'
+    description: 'rwm.mfcontactsview::lang.plugin.description'
+    author: 'Kevin Ard'
+    icon: oc-icon-envelope-o
+    homepage: ''

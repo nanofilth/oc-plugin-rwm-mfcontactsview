@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: Name
+        type: text
+    email:
+        label: Email
+        type: text
+    subject:
+        label: Subject
+        type: text
