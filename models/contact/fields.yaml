@@ -1,16 +1,17 @@
 fields:
     name:
-        label: 'rwm.mfcontactsview::lang.plugin.name'
-        oc.commentPosition: ''
-        span: auto
-        type: text
-    email:
-        label: Email
-        oc.commentPosition: ''
-        span: auto
-        type: text
-    subject:
-        label: Subject
         span: full
-        oc.commentPosition: ''
-        type: text
+        path: $/rwm/mfcontactsview/models/contact/_view_name.htm
+        type: partial
+    email:
+        span: full
+        path: $/rwm/mfcontactsview/models/contact/_view_email.htm
+        type: partial
+    subject:
+        span: full
+        path: $/rwm/mfcontactsview/models/contact/_view_subject.htm
+        type: partial
+    message:
+        span: full
+        path: $/rwm/mfcontactsview/models/contact/_view_message.htm
+        type: partial

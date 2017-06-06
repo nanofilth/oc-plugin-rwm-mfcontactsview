@@ -8,3 +8,7 @@ columns:
     subject:
         label: Subject
         type: text
+    created_at:
+        label: Created
+        type: datetime
+        format: 'D, M d, Y g:i a'

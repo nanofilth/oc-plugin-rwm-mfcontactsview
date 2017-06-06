@@ -1,10 +1,10 @@
 name: Contacts
 form: $/rwm/mfcontactsview/models/contact/fields.yaml
 modelClass: Rwm\MfContactsView\Models\Contact
-defaultRedirect: rwm/mfcontactsview/contact
+defaultRedirect: rwm/mfcontactsview/contacts
 create:
-    redirect: 'rwm/mfcontactsview/contact/update/:id'
-    redirectClose: rwm/mfcontactsview/contact
+    redirect: 'rwm/mfcontactsview/contacts/update/:id'
+    redirectClose: rwm/mfcontactsview/contacts
 update:
-    redirect: rwm/mfcontactsview/contact
-    redirectClose: rwm/mfcontactsview/contact
+    redirect: rwm/mfcontactsview/contacts
+    redirectClose: rwm/mfcontactsview/contacts
