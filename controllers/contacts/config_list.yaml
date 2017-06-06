@@ -1,5 +1,5 @@
-list: $/rwm/mfcontactsview/models/contacts/columns.yaml
-modelClass: Rwm\MfContactsView\Models\Contacts
+list: $/rwm/mfcontactsview/models/contact/columns.yaml
+modelClass: Rwm\MfContactsView\Models\Contact
 title: Contacts
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true

@@ -1,4 +1,4 @@
 title: Contacts
-modelClass: Rwm\MfContactsView\Models\Contacts
+modelClass: Rwm\MfContactsView\Models\Contact
 toolbar:
     buttons: reorder_toolbar

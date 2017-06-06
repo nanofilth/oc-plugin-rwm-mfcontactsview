@@ -17,7 +17,6 @@ class Plugin extends PluginBase
     {
         Event::listen('martin.forms.beforeSaveRecord', function ($formdata) {
             $contact = json_decode($formdata);
-
             xdebug_break();
         });
     }
