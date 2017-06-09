@@ -18,15 +18,15 @@ class Plugin extends PluginBase
     public function boot()
     {
         Event::listen('martin.forms.beforeSaveRecord', function ($formdata) {
-            $cnt_params = json_decode($formdata);
             $contact = new Contact();
-            $contact->name = $cnt_params->name;
-            $contact->email = $cnt_params->email;
-            $contact->subject = $cnt_params->subject;
-            $contact->message = $cnt_params->comments;
+            $contact->name = $formdata['name'];
+            $contact->email = $formdata['email'];
+            $contact->subject = $formdata['subject'];
+            $contact->message = $formdata['comments'];
             $contact->save();
         });
     }
+
     /**
      * Registers back-end navigation items for this plugin.
      *
