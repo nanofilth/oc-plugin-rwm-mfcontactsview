@@ -1,6 +1,6 @@
 plugin:
-    name: 'rwm.mfcontactsview::lang.plugin.name'
-    description: 'rwm.mfcontactsview::lang.plugin.description'
+    name: 'MF Contacts View'
+    description: 'Extends Magic Forms with custom backend handling'
     author: 'Kevin Ard'
     icon: oc-icon-envelope-o
-    homepage: ''
+    homepage: 'https://twitter.com/TheRealKevinArd'
