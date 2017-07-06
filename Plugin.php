@@ -8,7 +8,7 @@ use System\Classes\PluginBase;
 class Plugin extends PluginBase
 {
     public $require = [
-        'Martin\Forms'
+        'Martin.Forms'
     ];
 
     public function registerComponents()
